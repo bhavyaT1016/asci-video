@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        // "module": "CommonJS",
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "declaration": true,
+        "strict": true,
+        "skipLibCheck": false, 
+        "outDir": "./dist",
+    },
+    "include": [
+        "src/**/*", "dist/socket.io.js", "src/public/index.html"
+    ]
+}
